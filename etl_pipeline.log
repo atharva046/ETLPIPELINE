@@ -1,0 +1,25 @@
+2025-03-30 13:21:28,947 - etl_pipeline - INFO - ETL Pipeline initialized: data/source/sample_data.csv -> data/destination/processed_data.csv
+2025-03-30 13:21:28,949 - etl_pipeline - INFO - Starting ETL pipeline
+2025-03-30 13:21:28,953 - etl_pipeline - INFO - Extracting data from data/source/sample_data.csv
+2025-03-30 13:21:28,972 - etl_pipeline - INFO - Successfully extracted 4 records
+2025-03-30 13:21:28,973 - etl_pipeline - INFO - Transforming data
+2025-03-30 13:21:28,982 - etl_pipeline - INFO - Transformation complete. 4 records after transformation
+2025-03-30 13:21:28,983 - etl_pipeline - INFO - Loading data to data/destination/processed_data.csv
+2025-03-30 13:21:28,984 - etl_pipeline - INFO - Successfully loaded 4 records to data/destination/processed_data.csv
+2025-03-30 13:21:28,984 - etl_pipeline - INFO - ETL pipeline completed successfully
+2025-03-30 13:22:24,774 - etl_pipeline - INFO - ETL Pipeline initialized: data/source/my_data.csv -> data/destination/processed_data.csv
+2025-03-30 13:22:24,774 - etl_pipeline - INFO - Starting ETL pipeline
+2025-03-30 13:22:24,774 - etl_pipeline - INFO - Extracting data from data/source/my_data.csv
+2025-03-30 13:22:24,790 - etl_pipeline - ERROR - Error during extraction: Error tokenizing data. C error: Expected 3 fields in line 5, saw 63
+
+2025-03-30 13:22:24,790 - etl_pipeline - ERROR - ETL pipeline failed: Error tokenizing data. C error: Expected 3 fields in line 5, saw 63
+
+2025-03-30 13:27:27,656 - etl_pipeline - INFO - ETL Pipeline initialized: data/source/my_data.csv -> data/destination/processed_data.csv
+2025-03-30 13:27:27,656 - etl_pipeline - INFO - Starting ETL pipeline
+2025-03-30 13:27:27,656 - etl_pipeline - INFO - Extracting data from data/source/my_data.csv
+2025-03-30 13:27:27,656 - etl_pipeline - INFO - Successfully extracted 500 records
+2025-03-30 13:27:27,656 - etl_pipeline - INFO - Transforming data
+2025-03-30 13:27:27,673 - etl_pipeline - INFO - Transformation complete. 159 records after transformation
+2025-03-30 13:27:27,674 - etl_pipeline - INFO - Loading data to data/destination/processed_data.csv
+2025-03-30 13:27:27,675 - etl_pipeline - INFO - Successfully loaded 159 records to data/destination/processed_data.csv
+2025-03-30 13:27:27,675 - etl_pipeline - INFO - ETL pipeline completed successfully
